@@ -201,6 +201,13 @@ h2, h3 { font-family: 'Playfair Display', serif !important; color: __OSCURO__ !i
 [data-testid="stSidebar"] { background: __OSCURO__; }
 [data-testid="stSidebar"] * { color: #e6f0f9 !important; }
 
+/* Texto legible dentro de las tarjetas, también en modo oscuro */
+[class*="st-key-tarjeta"] p,
+[class*="st-key-tarjeta"] label,
+[class*="st-key-tarjeta"] li,
+[class*="st-key-tarjeta"] [data-testid="stWidgetLabel"] * { color: __OSCURO__ !important; }
+[class*="st-key-tarjeta"] [data-testid="stCaptionContainer"] * { color: #4d6479 !important; }
+
 #MainMenu, footer { visibility: hidden; }
 </style>
 """
